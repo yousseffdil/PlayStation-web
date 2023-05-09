@@ -166,3 +166,42 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
+.Menu{
+  position: absolute;
+  text-align: center;
+  padding: 1%;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  left: 90%;
+  top: 85%;
+  background: #016ECB;
+  color: white;
+  font-weight: 900;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  transition: 200ms;
+}
+.Menu:active{
+  background: #325b80;
+}
+
+div.Icons{
+  color: white;
+  background: #016ECB;
+  border-radius: 15px;
+  padding: 0.5%;
+  width: 25%;
+  position: absolute;
+  left: 60%;
+  top: 85.5%;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+ul li{
+  font-size: 2rem;
+}
