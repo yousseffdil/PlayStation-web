@@ -5,7 +5,6 @@ This is a concept website for PlayStation built using React. It aims to showcase
 ## Table of Contents
 
 - [Demo](#demo)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -13,15 +12,6 @@ This is a concept website for PlayStation built using React. It aims to showcase
 ## Demo
 
 You can check out the preview demo of the website ![img](/src/assets/preview.png).
-
-## Features
-
-- Responsive design for different screen sizes.
-- Home page with featured games and latest releases.
-- Game details page with information, screenshots, and reviews.
-- User authentication and registration functionality.
-- Personalized user profiles with game libraries and recommendations.
-- Search functionality to find games by title, genre, or platform.
 
 ## Installation
 
