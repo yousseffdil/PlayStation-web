@@ -4,7 +4,7 @@ import crashBandicootImage from './assets/crashBandicoot/CrashBandicoot.webp';
 import crashBandicootTittle from './assets/crashBandicoot/CrashLogo.webp';
 import CoDimage from './assets/COD/Pj.webp';
 import CotnrollerPS5 from './assets/PS5/Controller.webp';
-import { AiOutlineLeft, AiOutlinePhone, AiOutlineInstagram } from 'react-icons/ai';
+import { AiOutlineLeft, AiOutlinePhone, AiOutlineInstagram, AiOutlineFacebook, AiOutlineInfoCircle } from 'react-icons/ai';
 
 function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -33,24 +33,21 @@ function App() {
           <img src={CotnrollerPS5} alt="Controller" className="ControllerPS5" />
         </div>
         <button className="Menu" onClick={toggleMenu}>
-          <AiOutlineLeft />
+          <AiOutlineLeft/>
         </button>
         <div className={`Icons ${isMenuOpen ? 'show' : 'hide'}`}>
           <ul>
             <li>
+              <AiOutlineInstagram />
+            </li>
+            <li>
+              <AiOutlineFacebook />
+            </li>
+            <li>
+              <AiOutlineInfoCircle />
+            </li>
+            <li>
               <AiOutlinePhone />
-            </li>
-            <li>
-              <AiOutlineInstagram />
-            </li>
-            <li>
-              <AiOutlineInstagram />
-            </li>
-            <li>
-              <AiOutlineInstagram />
-            </li>
-            <li>
-              <AiOutlineInstagram />
             </li>
           </ul>
         </div>
@@ -59,4 +56,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

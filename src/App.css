@@ -187,16 +187,23 @@
   background: #325b80;
 }
 
-div.Icons{
+div.Icons {
   color: white;
   background: #016ECB;
   border-radius: 15px;
   padding: 0.5%;
   width: 25%;
   position: absolute;
-  left: 60%;
+  left: -100%; /* Posición inicial fuera de la pantalla */
   top: 85.5%;
+  transition: left 0.3s ease-in-out; /* Transición para animar el desplazamiento */
 }
+
+div.Icons.show {
+  left: 60%; /* Posición final en la pantalla */
+}
+
+
 ul{
   list-style: none;
   display: flex;
